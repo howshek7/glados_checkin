@@ -38,3 +38,4 @@
 > 在 fork 出项目下的 `actions` 页面, 查看运行历史日志来确认签到结果
 
 ![image](https://user-images.githubusercontent.com/23112609/96226413-29408400-0fc5-11eb-9ef2-044aac8642e1.png)
+qweee
