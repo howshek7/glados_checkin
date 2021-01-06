@@ -31,5 +31,6 @@ jobs:
         python3 checkin.py 
       env: 
         COOKIE: ${{ secrets.COOKIE }}
+        COOKIE2: ${{ secrets.COOKIE2 }}
 
 
