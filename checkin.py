@@ -41,10 +41,10 @@ headers2 = {
 def do_action():
     logger = logging.getLogger()
     response = requests.request("POST", url, headers=headers, data = payload)
-    response2 = requests.request("POST", url, headers=headers2, data = payload)
+#     response2 = requests.request("POST", url, headers=headers2, data = payload)
     
     result = response.text.encode('utf8')
-    result2 = response2.text.encode('utf8')
+#     result2 = response2.text.encode('utf8')
     
     logger.info(result)
     print(result)
